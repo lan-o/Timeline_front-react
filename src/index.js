@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+import Timeline from './scenes/Timeline';
+import * as serviceWorker from './services/serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Timeline />
   </React.StrictMode>,
   document.getElementById('root')
 );
