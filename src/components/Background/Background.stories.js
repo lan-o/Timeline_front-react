@@ -1,6 +1,7 @@
 import React from "react";
 
 import Background from "./index";
+import '../../index.css';
 
 export default {
   component: Background,
