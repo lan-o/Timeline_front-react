@@ -3,7 +3,7 @@ import React from "react";
 import "./GameCard.scss";
 
 function GameCard(props) {
-  const mouseEnterHandler = (e) =>
+  const mouseOverHandler = (e) =>
     [].slice
       .call(e.currentTarget.children)
       .map((el) => el.classList.add("hovered"));
@@ -16,7 +16,7 @@ function GameCard(props) {
     <div className="game-card">
       <div
         className="gc-content-container"
-        onMouseEnter={mouseEnterHandler}
+        onMouseOver={mouseOverHandler}
         onMouseOut={mouseOutHandler}
       >
         {props.children}
