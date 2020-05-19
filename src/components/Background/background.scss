@@ -10,36 +10,35 @@
 
 .background {
   background: #eaeaea;
+
   .bg-image {
     background-position: center center;
     background-size: cover;
     filter: blur(7.6px);
     opacity: 0.3;
   }
+
   .gradient-1,
   .gradient-2,
   .gradient-3 {
     opacity: 0.37;
   }
+
   .gradient-1 {
-    background-image: radial-gradient(
-      ellipse at left bottom,
-      #ff7c49 0%,
-      #ff7c4900 80%
-    );
+    background-image: radial-gradient(ellipse at left bottom,
+        #ff7c49 0%,
+        #ff7c4900 80%);
   }
+
   .gradient-2 {
-    background-image: radial-gradient(
-      ellipse at right top,
-      #0096b6 0%,
-      #0096b600 80%
-    );
+    background-image: radial-gradient(ellipse at right top,
+        #0096b6 0%,
+        #0096b600 80%);
   }
+
   .gradient-3 {
-    background-image: radial-gradient(
-      ellipse at right bottom,
-      #7563ff 0%,
-      #7563ff00 70%
-    );
+    background-image: radial-gradient(ellipse at right bottom,
+        #7563ff 0%,
+        #7563ff00 70%);
   }
 }
